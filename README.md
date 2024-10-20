@@ -1,7 +1,5 @@
 # Comprehensive-Sales-Data-Analysis
 
-# Business Demand Overview Dashboard
-
 ## Objective
 The objective of this project is to provide the Sales Manager and Sales Representatives with real-time, data-driven insights into internet sales, customer behavior, and product performance. The interactive Power BI dashboard facilitates better decision-making by comparing actual sales against budget targets and identifying opportunities for sales improvement.
 
