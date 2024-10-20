@@ -79,5 +79,34 @@ All visuals are interactive, allowing the sales team to manipulate filters and d
 - **Excel**: Source for the 2021 budget data, which was imported into Power BI for budget comparison.
 - **DAX (Data Analysis Expressions)**: Used to create complex calculations and KPIs for sales versus budget comparison.
 
+- 
+## User Stories
+| No | Role               | Request                                  | User Value                                                       | Acceptance Criteria                                                     |
+|----|--------------------|------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------|
+| 1  | Sales Manager       | Dashboard overview of internet sales     | To track which customers and products sell the best               | Power BI dashboard that updates sales data once a day                   |
+| 2  | Sales Representative| Detailed internet sales per customer     | Can follow up on customers that buy the most                      | Power BI dashboard that allows filtering by customer                    |
+| 3  | Sales Representative| Detailed internet sales per product      | Can follow up on top-selling products                             | Power BI dashboard that allows filtering by product                     |
+| 4  | Sales Manager       | Sales dashboard with budget comparison   | Track sales over time and compare against the 2021 budget          | Power BI dashboard with KPIs and graphs comparing sales against budget  |
+
+## How to Run the Project
+
+1. **Restoring the `.bkp` file**:
+    - Run the `restore_bkp_file.sql` script located in the `SQL/` folder to restore the sales data to SQL Server.
+    
+2. **Clean and Prepare the Data**:
+    - Execute the `data_cleaning.sql` script to remove duplicates and clean the sales data.
+
+3. **Power BI Integration**:
+    - Open the Power BI `.pbix` file from the `PowerBI/` folder.
+    - Ensure the data sources (SQL Server and Excel) are correctly connected.
+
+4. **Dashboard Visualization**:
+    - Load the data and interact with the dashboard to filter by customer, product, and compare against the budget.
+
+## Conclusion
+This project provides a solution to streamline sales data analysis for the sales team by automating and visualizing key metrics through Power BI. It integrates data from both SQL Server and Excel to create comprehensive dashboards that provide actionable insights. By automating daily data refresh, the sales team can continuously track performance, improve decision-making, and increase revenue by identifying trends and opportunities.
+
+
+
 
 
